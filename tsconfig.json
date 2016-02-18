@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "out": "HelloSPONGEAdelaide.js",
+        "sourceMap": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": true,
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "files": [
+        "src/app.ts",
+        "src/controllers/HelloController.ts",
+        "src/Models/HelloModel.ts",
+        "src/Models/HelloParams.ts",
+        "src/Models/Test.ts",
+        "src/services/TestService.ts",
+        "src/typings/angularjs/angular-animate.d.ts",
+        "src/typings/angularjs/angular-cookies.d.ts",
+        "src/typings/angularjs/angular-mocks.d.ts",
+        "src/typings/angularjs/angular-resource.d.ts",
+        "src/typings/angularjs/angular-route.d.ts",
+        "src/typings/angularjs/angular-sanitize.d.ts",
+        "src/typings/angularjs/angular.d.ts",
+        "src/typings/jasmine/jasmine.d.ts",
+        "src/typings/jquery/jquery.d.ts"
+    ]
+}
